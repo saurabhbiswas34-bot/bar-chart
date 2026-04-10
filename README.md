@@ -6,10 +6,6 @@ A simple React app that renders a clean two-column vertical bar chart with CSS g
 
 ![Bar chart preview](./project-preview.svg)
 
-<p align="center">
-  <img src="./project-preview.svg" alt="Bar chart app screenshot" width="820" />
-</p>
-
 ## What It Shows
 
 - Vertical bar chart UI with a labeled Y-axis (0 to 100)
