@@ -1,10 +1,10 @@
 import './index.css';
-import BarChar from './BarChar.jsx';
+import MinimalBarChart from './MinimalBarChart.jsx';
 
 export default function App() {
   return (
     <main className="wrapper">
-      <BarChar />
+      <MinimalBarChart />
     </main>
   );
 }

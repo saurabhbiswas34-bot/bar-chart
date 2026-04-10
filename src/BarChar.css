@@ -28,13 +28,6 @@
   overflow: visible;
   border-left: 1px solid #d1d5db;
   border-bottom: 1px solid #d1d5db;
-  background-image: repeating-linear-gradient(
-    to top,
-    #e5e7eb 0,
-    #e5e7eb 1px,
-    transparent 1px,
-    transparent 41px
-  );
 }
 
 .bar-item {
