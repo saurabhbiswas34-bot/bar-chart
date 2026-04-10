@@ -4,7 +4,7 @@ A simple React app that renders a clean two-column vertical bar chart with CSS g
 
 ## Preview
 
-![Bar chart preview](./project-preview.svg)
+![Bar chart preview](./bar-chart-preview.svg)
 
 ## What It Shows
 
