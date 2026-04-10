@@ -1,25 +1,31 @@
-# Progress Bar (React)
+# Progress Bar (React + Vite)
 
-Small React project with a minimal custom progress bar component.
+A simple React app that renders a native HTML `<progress>` element.
 
 ## Preview
 
-![Progress Bar UI](./project-preview.svg)
+![Progress bar preview](./project-preview.svg)
 
-## Features
+## What It Shows
 
-- Very small code
-- Value clamped between `0` and `100`
-- Accessible with `role="progressbar"` and ARIA values
+- Native `<progress>` usage with `value` and `max`
+- Percentage text fallback inside the element
+- Input value clamped between `0` and `100`
 
-## Run
+## Tech Stack
+
+- React
+- Vite
+- CSS
+
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## Build For Production
 
 ```bash
 npm run build

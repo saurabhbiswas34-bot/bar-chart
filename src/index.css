@@ -1,19 +1,16 @@
 body {
-  font-family: sans-serif;
   margin: 0;
+  font-family: sans-serif;
 }
 
 #root {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
   width: min(360px, 90vw);
 }
 
@@ -29,6 +26,5 @@ body {
   background-color: #0d6efd;
   color: #fff;
   height: 100%;
-  overflow: hidden;
   text-align: center;
 }
