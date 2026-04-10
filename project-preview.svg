@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="#f2f2f2"/>
+  <text x="450" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#111">
+    Progress Bar
+  </text>
+  <rect x="180" y="180" width="540" height="50" rx="10" fill="#e9ecef" stroke="#c5c5c5" stroke-width="2"/>
+  <rect x="180" y="180" width="389" height="50" rx="10" fill="#0d6efd"/>
+  <text x="450" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">
+    72%
+  </text>
+</svg>
