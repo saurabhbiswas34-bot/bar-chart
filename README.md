@@ -1,22 +1,37 @@
-# Progress Bar (React + Vite)
+# Bar Chart (React + Vite)
 
-A simple React app that renders a native HTML `<progress>` element.
+A simple React app that renders a clean two-column vertical bar chart with CSS grid.
 
 ## Preview
 
-![Progress bar preview](./project-preview.svg)
+![Bar chart preview](./project-preview.svg)
+
+<p align="center">
+  <img src="./project-preview.svg" alt="Bar chart app screenshot" width="820" />
+</p>
 
 ## What It Shows
 
-- Native `<progress>` usage with `value` and `max`
-- Percentage text fallback inside the element
-- Input value clamped between `0` and `100`
+- Vertical bar chart UI with a labeled Y-axis (0 to 100)
+- Horizontal guide lines for easier value comparison
+- Bar heights clamped between `0` and `100`
+- Reusable `BarChar` React component with dedicated stylesheet
 
 ## Tech Stack
 
 - React
 - Vite
 - CSS
+
+## Project Structure
+
+```text
+src/
+  App.jsx
+  BarChar.jsx
+  BarChar.css
+  index.css
+```
 
 ## Run Locally
 
@@ -29,4 +44,10 @@ npm run dev
 
 ```bash
 npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
 ```
